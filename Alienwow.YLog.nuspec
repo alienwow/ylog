@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>Alienwow.YLog</id>
+        <version>1.0.2</version>
+        <title>YLog</title>
+        <authors>Alienwow</authors>
+        <owners>Alienwow</owners>
+        <licenseUrl>http://alienwow.cc</licenseUrl>
+        <projectUrl>http://alienwow.cc</projectUrl>
+        <iconUrl>http://alienwow.cc</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Alienwow</description>
+        <releaseNotes>v1.0.2</releaseNotes>
+        <copyright>Copyright ©  2017 Alienwow</copyright>
+        <tags>Log Trace Debug</tags>
+        <dependencies>
+            <dependency id="log4net" version="2.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="YLog\bin\Release\YLog.dll" target="lib\net46\"></file>
+        <file src="YLog\bin\Release\YLog.xml" target="lib\net46\"></file>
+    </files>
+</package>
