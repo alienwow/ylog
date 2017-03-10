@@ -2,7 +2,7 @@
 <package >
     <metadata>
         <id>Alienwow.YLog</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <title>YLog</title>
         <authors>Alienwow</authors>
         <owners>Alienwow</owners>
@@ -11,7 +11,7 @@
         <iconUrl>http://alienwow.cc</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Alienwow</description>
-        <releaseNotes>v1.0.2</releaseNotes>
+        <releaseNotes>v1.0.3</releaseNotes>
         <copyright>Copyright ©  2017 Alienwow</copyright>
         <tags>Log Trace Debug</tags>
         <dependencies>
@@ -19,7 +19,20 @@
         </dependencies>
     </metadata>
     <files>
+        <file src="YLog_Net4\bin\Release\YLog.dll" target="lib\net4\"></file>
+        <file src="YLog_Net4\bin\Release\YLog.xml" target="lib\net4\"></file>
+        <file src="YLog_Net45\bin\Release\YLog.dll" target="lib\net45\"></file>
+        <file src="YLog_Net45\bin\Release\YLog.xml" target="lib\net45\"></file>
+        <file src="YLog_Net451\bin\Release\YLog.dll" target="lib\net451\"></file>
+        <file src="YLog_Net451\bin\Release\YLog.xml" target="lib\net451\"></file>
+        <file src="YLog_Net452\bin\Release\YLog.dll" target="lib\net452\"></file>
+        <file src="YLog_Net452\bin\Release\YLog.xml" target="lib\net452\"></file>
         <file src="YLog\bin\Release\YLog.dll" target="lib\net46\"></file>
         <file src="YLog\bin\Release\YLog.xml" target="lib\net46\"></file>
+        <file src="YLog_Net461\bin\Release\YLog.dll" target="lib\net461\"></file>
+        <file src="YLog_Net461\bin\Release\YLog.xml" target="lib\net461\"></file>
+        <file src="YLog_Net462\bin\Release\YLog.dll" target="lib\net462\"></file>
+        <file src="YLog_Net462\bin\Release\YLog.xml" target="lib\net462\"></file>
+
     </files>
 </package>
