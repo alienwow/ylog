@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLog_Net46", "YLog\YLog_Net46.csproj", "{78CE0252-6DC2-49E5-9EEB-C521CF29C56F}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLog_Net4", "YLog_Net4\YLog_Net4.csproj", "{EB2B7823-455B-44E1-9CCB-70498001E69D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLog_Net45", "YLog_Net45\YLog_Net45.csproj", "{834A15EE-D778-4FED-8164-799C6107122E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YLog_NetCore2", "YLog_NetCore2\YLog_NetCore2.csproj", "{FC6990AD-DB3B-4850-8C38-901DC9952451}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,8 +127,23 @@ Global
 		{834A15EE-D778-4FED-8164-799C6107122E}.Release|x64.Build.0 = Release|x64
 		{834A15EE-D778-4FED-8164-799C6107122E}.Release|x86.ActiveCfg = Release|x86
 		{834A15EE-D778-4FED-8164-799C6107122E}.Release|x86.Build.0 = Release|x86
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|x64.Build.0 = Release|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC6990AD-DB3B-4850-8C38-901DC9952451}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F16766B3-3730-474F-874F-85AC7244D7ED}
 	EndGlobalSection
 EndGlobal

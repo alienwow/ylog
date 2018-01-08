@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>YLog</AssemblyName>
+    <RootNamespace>YLog</RootNamespace>
+    <PackageId>Alienwow.YLog</PackageId>
+    <Authors>alienwow</Authors>
+    <Company>alienwow</Company>
+    <Product>YLog</Product>
+    <Copyright>Copyright ©  2017 Alienwow</Copyright>
+    <AssemblyVersion>1.0.4.0</AssemblyVersion>
+    <FileVersion>1.0.4.0</FileVersion>
+    <Version>1.0.4</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+</Project>
