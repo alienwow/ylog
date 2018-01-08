@@ -1,7 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Reflection;
 using log4net;
+using log4net.Config;
+using log4net.Repository;
 
 namespace YLog
 {
@@ -17,7 +20,11 @@ namespace YLog
             {
                 if (_logger == null)
                 {
-                    _logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+                    var repository = LogManager.CreateRepository("NETCoreRepository");
+                    XmlConfigurator.Configure(repository, new FileInfo("log4net.config"));
+                    _logger = LogManager.GetLogger(repository.Name, "NETCorelog4net");
+
+                    //_logger = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
                 }
                 return _logger;
             }
