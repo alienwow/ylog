@@ -22,7 +22,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Alienwow.YLog</id>
-    <version>1.0.4-pre1-insider100</version>
+    <version>1.0.6-pre1-insider100</version>
     <title>Alienwow.YLog</title>
     <authors>alienwow</authors>
     <owners>alienwow</owners>
@@ -32,7 +32,7 @@
     <iconUrl>http://alienwow.cc</iconUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>Alienwow.YLog</description>
-    <releaseNotes>Alienwow.YLog v1.0.4</releaseNotes>
+    <releaseNotes>Alienwow.YLog v1.0.6</releaseNotes>
     <copyright>Copyright © Alienwow 2018</copyright>
     <tags>log4net log</tags>
     <dependencies>

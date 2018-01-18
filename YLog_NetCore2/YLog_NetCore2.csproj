@@ -1,19 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
+  <Import Project="..\build\common-core.props" />
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <AssemblyName>YLog</AssemblyName>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>Alienwow.YLog</Description>
+    <Title>Alienwow.YLog</Title>
     <RootNamespace>YLog</RootNamespace>
-    <PackageId>Alienwow.YLog</PackageId>
-    <Authors>alienwow</Authors>
-    <Company>alienwow</Company>
-    <Product>YLog</Product>
-    <Copyright>Copyright ©  2017 Alienwow</Copyright>
-    <AssemblyVersion>1.0.4.0</AssemblyVersion>
-    <FileVersion>1.0.4.0</FileVersion>
-    <Version>1.0.4</Version>
-    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyName>YLog</AssemblyName>
+    <Copyright>Copyright © Alienwow 2018</Copyright>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
