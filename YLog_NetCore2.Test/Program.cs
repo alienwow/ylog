@@ -1,6 +1,7 @@
 ﻿using System;
+using YLog;
 
-namespace YLog.ConsoleTest
+namespace YLog_NetCore2.Test
 {
     class Program
     {
@@ -21,7 +22,7 @@ namespace YLog.ConsoleTest
             Trace.Fatal("Trace.Fatal");
             Trace.Write("Trace.Write");
 
-            Console.ReadLine();
+            Console.WriteLine("Hello World!");
         }
     }
 }

@@ -1,10 +1,8 @@
-﻿using System;
+﻿using log4net;
+using log4net.Config;
+using System;
 using System.Diagnostics;
 using System.IO;
-using System.Reflection;
-using log4net;
-using log4net.Config;
-using log4net.Repository;
 
 namespace YLog
 {
